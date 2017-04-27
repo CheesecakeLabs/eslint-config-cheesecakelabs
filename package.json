@@ -1,11 +1,26 @@
 {
   "name": "eslint-config-cheesecakelabs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "This package provides CheesecakeLab's .eslintrc extensible shared config.",
-  "main": "index.js",
-  "repository": ".",
-  "author": "CheesecakeLabs ",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CheesecakeLabs/eslint-config-cheesecakelabs.git"
+  },
+  "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CheesecakeLabs/eslint-config-cheesecakelabs/issues"
+  },
+  "homepage": "https://github.com/CheesecakeLabs/eslint-config-cheesecakelabs#readme",
+  "license": "MIT",
+   "keywords": [
+    "eslint",
+    "eslintconfig",
+    "ckl",
+    "cheesecake",
+    "cheesecakelabs"
+  ],
   "dependencies": {
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
@@ -13,6 +28,6 @@
     "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">=3"
   }
 }
