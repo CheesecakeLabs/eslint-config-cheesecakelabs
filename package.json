@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheesecakelabs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "This package provides CheesecakeLab's .eslintrc extensible shared config.",
   "main": "./index.js",
   "repository": {
