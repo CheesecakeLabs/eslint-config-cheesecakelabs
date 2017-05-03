@@ -13,8 +13,7 @@
     "url": "https://github.com/CheesecakeLabs/eslint-config-cheesecakelabs/issues"
   },
   "homepage": "https://github.com/CheesecakeLabs/eslint-config-cheesecakelabs#readme",
-  "license": "MIT",
-   "keywords": [
+  "keywords": [
     "eslint",
     "eslintconfig",
     "ckl",
@@ -28,6 +27,7 @@
     "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
+    "babel-eslint": "^7.2.3",
     "eslint": ">=3"
   }
 }
