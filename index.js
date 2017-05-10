@@ -5,6 +5,7 @@ module.exports = {
     browser: true,
     node: true,
     jest: true,
+    enzyme: true,
   },
   rules: {
     semi: ['error', 'never'],
