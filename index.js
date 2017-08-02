@@ -6,6 +6,13 @@ module.exports = {
     node: true,
     jest: true,
   },
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: 'webpack.config.js',
+      },
+    },
+  },
   rules: {
     semi: ['error', 'never'],
     'no-console': [
@@ -24,7 +31,7 @@ module.exports = {
     ],
     'import/order': [
       'error', {
-        groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
       },
     ],
