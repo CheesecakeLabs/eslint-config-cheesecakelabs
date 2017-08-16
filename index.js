@@ -51,7 +51,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'prettier/prettier': ['error', {
       singleQuote: true,
-      trailingComma: 'all',
+      trailingComma: 'es5',
       bracketSpacing: true,
       jsxBracketSameLine: false,
       semi: false,
