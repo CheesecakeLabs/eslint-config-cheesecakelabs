@@ -48,9 +48,16 @@ module.exports = {
       },
     ],
     'react/jsx-filename-extension': 'off',
-    'arrow-parens': ['error', 'always'],
+    'arrow-parens': ['error', 'as-needed'],
+    'prettier/prettier': ['error', {
+      singleQuote: true,
+      trailingComma: 'all',
+      bracketSpacing: true,
+      jsxBracketSameLine: false,
+      semi: false,
+      parser: 'babylon',
+      printWidth: 100,
+    }],
   },
-  plugins: [
-    'react',
-  ],
+  plugins: ['react', 'prettier'],
 }
