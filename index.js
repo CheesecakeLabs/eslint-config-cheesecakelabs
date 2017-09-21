@@ -16,27 +16,32 @@ module.exports = {
   rules: {
     semi: ['error', 'never'],
     'no-console': [
-      'error', {
+      'error',
+      {
         allow: ['warn', 'info', 'error'],
       },
     ],
     'import/named': 'error',
     'import/prefer-default-export': 'off',
     'no-multiple-empty-lines': [
-      'error', {
+      'error',
+      {
         max: 1,
         maxEOF: 1,
         maxBOF: 0,
       },
     ],
+    'jsx-a11y/href-no-hash': 0,
     'import/order': [
-      'error', {
+      'error',
+      {
         groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
         'newlines-between': 'always',
       },
     ],
     'import/no-extraneous-dependencies': [
-      'error', {
+      'error',
+      {
         devDependencies: [
           '**/stories.js',
           '**/*.dev.js',
@@ -49,15 +54,18 @@ module.exports = {
     ],
     'react/jsx-filename-extension': 'off',
     'arrow-parens': ['error', 'as-needed'],
-    'prettier/prettier': ['error', {
-      singleQuote: true,
-      trailingComma: 'es5',
-      bracketSpacing: true,
-      jsxBracketSameLine: false,
-      semi: false,
-      parser: 'babylon',
-      printWidth: 100,
-    }],
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        trailingComma: 'es5',
+        bracketSpacing: true,
+        jsxBracketSameLine: false,
+        semi: false,
+        parser: 'babylon',
+        printWidth: 100,
+      },
+    ],
   },
   plugins: ['react', 'prettier'],
 }
