@@ -201,14 +201,6 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-create-react-class@^15.6.0:
-  version "15.6.0"
-  resolved "https://registry.yarnpkg.com/create-react-class/-/create-react-class-15.6.0.tgz#ab448497c26566e1e29413e883207d57cfe7bed4"
-  dependencies:
-    fbjs "^0.8.9"
-    loose-envify "^1.3.1"
-    object-assign "^4.1.1"
-
 crypto-browserify@^3.11.0:
   version "3.11.1"
   resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-3.11.1.tgz#948945efc6757a400d6e5e5af47194d10064279f"
@@ -343,9 +335,9 @@ eslint-config-airbnb@^15.1.0:
   dependencies:
     eslint-config-airbnb-base "^11.3.0"
 
-eslint-config-prettier@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.5.0.tgz#9ecb9296bae4e2e59a3ce361a96c9f825fe67b75"
+eslint-config-prettier@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-2.6.0.tgz#f21db0ebb438ad678fb98946097c4bb198befccc"
   dependencies:
     get-stdin "^5.0.1"
 
@@ -673,7 +665,7 @@ lodash.isarray@^3.0.0:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/lodash.isarray/-/lodash.isarray-3.0.4.tgz#79e4eb88c36a8122af86f844aa9bcd851b5fbb55"
 
-loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.3.1:
+loose-envify@^1.0.0, loose-envify@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/loose-envify/-/loose-envify-1.3.1.tgz#d1a8ad33fa9ce0e713d65fdd0ac8b748d478c848"
   dependencies:
@@ -752,7 +744,7 @@ normalize-package-data@^2.3.2:
     semver "2 || 3 || 4 || 5"
     validate-npm-package-license "^3.0.1"
 
-object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
@@ -848,9 +840,9 @@ pkg-dir@^1.0.0:
   dependencies:
     find-up "^1.0.0"
 
-prettier@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.7.0.tgz#47481588f41f7c90f63938feb202ac82554e7150"
+prettier@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.7.4.tgz#5e8624ae9363c80f95ec644584ecdf55d74f93fa"
 
 process-nextick-args@~1.0.6:
   version "1.0.7"
@@ -904,16 +896,6 @@ randombytes@^2.0.0, randombytes@^2.0.1:
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.0.5.tgz#dc009a246b8d09a177b4b7a0ae77bc570f4b1b79"
   dependencies:
     safe-buffer "^5.1.0"
-
-react@^15.6.1:
-  version "15.6.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-15.6.1.tgz#baa8434ec6780bde997cdc380b79cd33b96393df"
-  dependencies:
-    create-react-class "^15.6.0"
-    fbjs "^0.8.9"
-    loose-envify "^1.1.0"
-    object-assign "^4.1.0"
-    prop-types "^15.5.10"
 
 read-pkg-up@^2.0.0:
   version "2.0.0"
