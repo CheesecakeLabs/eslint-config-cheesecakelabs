@@ -32,4 +32,14 @@ You can also omit the `eslint-config- and it will be automatically assumed by ES
 }
 ```
 
-[More Info](http://eslint.org/docs/developer-guide/shareable-configs)
+## React
+
+**IMPORTANT:** To use the react config, you need to add it explicitly.
+
+```json
+{
+  "extends": "cheesecakelabs/react"
+}
+```
+
+  [More Info](http://eslint.org/docs/developer-guide/shareable-configs)
