@@ -1,18 +1,6 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
-  },
-  settings: {
-    'import/resolver': {
-      webpack: {
-        config: 'webpack.config.js',
-      },
-    },
-  },
+  extends: ['airbnb/base', 'prettier'],
   rules: {
     semi: ['error', 'never'],
     'no-console': [
@@ -31,28 +19,20 @@ module.exports = {
         maxBOF: 0,
       },
     ],
-    'jsx-a11y/href-no-hash': 0,
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+        ],
         'newlines-between': 'always',
       },
     ],
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: [
-          '**/stories.js',
-          '**/*.dev.js',
-          '**/*.test.js',
-          'server.js',
-          'postcss.config.js',
-          'webpack.config.*',
-        ],
-      },
-    ],
-    'react/jsx-filename-extension': 'off',
     'arrow-parens': ['error', 'as-needed'],
     'prettier/prettier': [
       'error',
@@ -67,5 +47,5 @@ module.exports = {
       },
     ],
   },
-  plugins: ['react', 'prettier'],
-}
+  plugins: ['prettier'],
+};
