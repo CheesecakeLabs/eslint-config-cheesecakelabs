@@ -45,7 +45,7 @@ module.exports = {
         bracketSpacing: true,
         jsxBracketSameLine: false,
         semi: false,
-        parser: 'babylon',
+        parser: 'babel',
         printWidth: 100,
       },
     ],
