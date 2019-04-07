@@ -49,6 +49,8 @@ module.exports = {
         printWidth: 100,
       },
     ],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhausistive-deps': 'warn',
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'react-hooks'],
 };
