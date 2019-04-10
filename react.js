@@ -5,10 +5,12 @@ module.exports = {
   rules: {
     'jsx-a11y/href-no-hash': 0,
     'react/jsx-filename-extension': 'off',
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhausistive-deps': 'warn',
   },
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
 };
