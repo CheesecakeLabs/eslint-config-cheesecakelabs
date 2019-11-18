@@ -51,4 +51,11 @@ module.exports = {
     ],
   },
   plugins: ['prettier'],
-};
+  settings: {
+    'import/resolver': {
+      webpack: {
+        config: 'webpack.config.base.js',
+      },
+    },
+  },
+}
