@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-cheesecakelabs",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "This package provides CheesecakeLab's .eslintrc extensible shared config.",
   "main": "./index.js",
   "repository": {
@@ -32,7 +32,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^1.7.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
     "prettier": "^1.19.1"
   },
   "peerDependencies": {
