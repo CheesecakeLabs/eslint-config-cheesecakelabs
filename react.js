@@ -1,4 +1,4 @@
-const baseConfig = require.resolve('./');
+const baseConfig = require.resolve('./')
 
 module.exports = {
   extends: ['airbnb', 'prettier/react', baseConfig],
@@ -6,11 +6,11 @@ module.exports = {
     'jsx-a11y/href-no-hash': 0,
     'react/jsx-filename-extension': 'off',
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhausistive-deps': 'warn',
+    'react-hooks/exhaustive-deps': 'warn',
   },
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
   plugins: ['react', 'react-hooks'],
-};
+}
